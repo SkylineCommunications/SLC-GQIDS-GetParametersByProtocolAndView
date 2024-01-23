@@ -5,7 +5,7 @@
 	<Type>Automation</Type>
 	<Author>MFA</Author>
 	<CheckSets>FALSE</CheckSets>
-	<Folder></Folder>
+	<Folder>GQI</Folder>
 
 	<Protocols>
 	</Protocols>
@@ -19,7 +19,8 @@
 	<Script>
 		<Exe id="1" type="csharp">
 			<Value><![CDATA[[Project:GetParametersByProtocolAndView_1]]]></Value>
-			<!--<Param type="debug">true</Param>-->
+			<Param type="preCompile">true</Param>
+			<Param type="libraryName">GQI_GetParametersByView</Param>
 			<Message></Message>
 		</Exe>
 	</Script>
