@@ -20,7 +20,7 @@
 		<Exe id="1" type="csharp">
 			<Value><![CDATA[[Project:GetParametersByProtocolAndView_1]]]></Value>
 			<Param type="preCompile">true</Param>
-			<Param type="libraryName">GQI_GetParametersByView</Param>
+			<Param type="libraryName">GQI_GetParametersByProtocolAndView</Param>
 			<Message></Message>
 		</Exe>
 	</Script>
