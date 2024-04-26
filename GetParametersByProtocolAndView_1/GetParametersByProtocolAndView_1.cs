@@ -231,7 +231,6 @@ namespace GetParametersByProtocolAndView_1
                 rows.Add(myRow);
             }
 
-            rows = rows.OrderBy(x => x.Cells[1].Value).ToList(); // Ordering by element name
             return new GQIPage(rows.ToArray())
             {
                 HasNextPage = false,
